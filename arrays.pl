@@ -57,3 +57,18 @@ for($i = 0;$i<=$#reverse_sample;$i++) {
 print $reverse_sample[$i] . "\n";
 }
 
+#!/usr/bin/perl
+my @num = (1,3,1,2);
+my $i=0;
+my @reversenum = reverse @num;
+my @array = ("rem", "sre" , "m k");
+my @reversearray = reverse @array;
+for ($i=0;$i<=$#reversenum;$i++)
+{
+print $reversenum[$i] . "\n";
+}
+my $i=0;
+for ($i=0;$i<=$#reversearray;$i++)
+{
+print $reversearray[$i] . "\n";
+}
