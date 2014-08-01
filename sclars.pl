@@ -25,6 +25,7 @@ my $sum = $c + $d;
 print $sum;
 #print $c + $d;
 print "Sum: " . $sum;
+print "Sum" . ($c+$d);
 print "2 power 4 is: " . 2**4;
 
 
