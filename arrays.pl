@@ -6,6 +6,7 @@ use warnings;
 my $i = 0;
 
 my @animals = ("Elephant", "Tiger", "Lion", "Zebra");
+print @animals; #Print array elements.
 print "First Element is: " . $animals[0] . "\n";
 $animals[0] = "Monkey";
 print "Modified First Element is: " . $animals[0] . "\n";
